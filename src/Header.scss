@@ -1,21 +1,20 @@
 header{
     height: 10vh;
-    width: 80vw;
-    margin: 0 10vw;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     background-color: darkslateblue;
-    border-radius: 1vh;
     border: 2px solid black;
 }
-img{
+
+img.header{
     height: 80%;
     border-radius: 1vw;
 }
 
-a{
+a.header{
     color: #fff;
     background-color: transparent;
     border: 0.1vh solid #fff;
@@ -25,14 +24,14 @@ a{
     font-size: 2vh;
 }
 
-h1{
+h1.header{
     color: black;
     background-color: transparent;
     padding: 0.5vh 1vw;
     font-size: 5vh;
 }
 
-img, a, h1{
+.header {
     margin: 1vw 1vw;
     padding: 0 1vw;
     text-decoration: none;

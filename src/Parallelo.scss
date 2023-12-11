@@ -1,0 +1,12 @@
+.parallelo{
+    width: 80vw;
+    height: 10vh;
+    position: absolute;
+    transform: skew(30deg) translateX(-10vw);
+    background-color: lightgrey;
+    transition: all 0.5s ease-in-out;
+}
+
+.container:hover .parallelo{
+    transform: skew(30deg) translateX(-30vw);
+}
