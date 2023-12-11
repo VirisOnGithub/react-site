@@ -1,0 +1,48 @@
+header{
+    height: 10vh;
+    width: 80vw;
+    margin: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: darkslateblue;
+    border-radius: 1vh;
+    border: 2px solid black;
+}
+img{
+    height: 80%;
+    border-radius: 1vw;
+}
+
+a{
+    color: #fff;
+    background-color: transparent;
+    border: 0.1vh solid #fff;
+    border-radius: 1vh;
+    padding: 0.5vh 1vw;
+    transition: all 0.3s ease-in-out;
+    font-size: 2vh;
+}
+
+h1{
+    color: black;
+    background-color: transparent;
+    padding: 0.5vh 1vw;
+    font-size: 5vh;
+}
+
+img, a, h1{
+    margin: 1vw 1vw;
+    padding: 0 1vw;
+    text-decoration: none;
+    font-weight: 1000;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 0.05vw;
+}
+
+a:hover{
+    color: #fff;
+    background-color: #000;
+    border-radius: 1vh;
+}
