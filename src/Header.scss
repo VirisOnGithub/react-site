@@ -5,6 +5,9 @@ header{
     justify-content: space-between;
     align-items: center;
 
+    position: fixed;
+    top: 0;
+
     background-color: darkslateblue;
     border: 2px solid black;
 }
@@ -44,4 +47,10 @@ a:hover{
     color: #fff;
     background-color: #000;
     border-radius: 1vh;
+}
+
+.headercontainer{
+    position: relative;
+    height: 10vh;
+    width: 100vw;
 }
