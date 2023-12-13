@@ -17,7 +17,6 @@ h1{
 }
 
 .swiper-slide{
-    width: 20vw !important;
     height: 15vw !important;
     margin: 0 0;
     padding: 1vw;
@@ -30,5 +29,5 @@ h1{
     border-radius: 1vw;
     text-align: center;
 
-    box-shadow: 1vw 1vw 1vw black;
+    box-shadow: 0.1vw 0.1vw 0.1vw grey;
 }

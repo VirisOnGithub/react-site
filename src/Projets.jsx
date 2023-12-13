@@ -70,13 +70,17 @@ const Projets = () => {
           <Swiper
             spaceBetween={50}
             slidesPerView={3}
-            loop={true}
             className='swiper'
+            effect='slide'
+            parallax={true}
+            centeredSlides={true}
+            speed={1000}
+            loop={true}
           >
             {gamesslides.map((slide, index) => (
               <SwiperSlide key={index} className='swiperslide'>
                 <div className="slide">
-                  <img src={slide.image} alt={slide.title} />
+                  <img src={slide.image} alt={slide.title} loading='lazy'/>
                   <h3>{slide.title}</h3>
                   <p>{slide.description}</p>
                 </div>
