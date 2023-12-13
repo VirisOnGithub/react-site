@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Accueil from './Accueil'
 import './main.scss'
+import { ParallaxProvider } from 'react-scroll-parallax'
 
 const router = createBrowserRouter([
   { 
@@ -17,6 +18,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <ParallaxProvider>
+      <RouterProvider router={router}/>
+    </ParallaxProvider>
   </React.StrictMode>,
 )
