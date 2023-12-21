@@ -64,8 +64,8 @@ const Projets = () => {
 
   return (
     <div className='projects'>
-      <h1>Projets</h1>
-      <Parallax>
+      <Parallax translateY={-20} speed={-50}>
+        <h1>Projets</h1>
         <div className="jeux">
           <Swiper
             spaceBetween={50}
@@ -88,15 +88,17 @@ const Projets = () => {
             ))}
           </Swiper>
         </div>
-      </Parallax>
-      <h1>Autres</h1>
-      <Parallax >
+        <h1>Autres</h1>
         <div className="autres">
           <Swiper
             spaceBetween={50}
             slidesPerView={3}
-            loop={true}
             className='swiper'
+            effect='slide'
+            parallax={true}
+            centeredSlides={true}
+            speed={1000}
+            loop={true}
           >
             {othersslides.map((slide, index) => (
               <SwiperSlide key={index} className='swiperslide'>

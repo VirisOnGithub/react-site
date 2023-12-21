@@ -28,6 +28,7 @@ h1{
     background-color: lightgrey;
     border-radius: 1vw;
     text-align: center;
-
-    box-shadow: 0.1vw 0.1vw 0.1vw grey;
+    &:hover{
+        box-shadow: 0.1vw 0.1vw 0.1vw grey;
+    }
 }

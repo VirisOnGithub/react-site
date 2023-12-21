@@ -10,9 +10,13 @@ header{
     top: 0;
 
     background-color: lightgrey;
-    border: 2px solid black;
 
     z-index: 2;
+    transition: all 0.3s ease-in-out;
+}
+
+.ombre{
+    box-shadow: 0.1vw 0.1vw 0.1vw grey;
 }
 
 img.header{
